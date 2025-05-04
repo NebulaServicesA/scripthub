@@ -26,6 +26,13 @@ elseif placeId == 14259168147 then
     })
     loadstring(game:HttpGet("https://pastebin.com/raw/HgtQB7aZ", true))()
 
+elseif placeId == 17855939479 then
+    Notify({
+        Description = "2D BasketBall Game Detected";
+        Title = "Status | Wave 1";
+        Duration = 3;
+    })
+    loadstring(game:HttpGet("https://pastebin.com/raw/RGP6H7aj", true))()
 else
     Notify({
         Description = "Unknown Game";
